@@ -1,0 +1,20 @@
+diff --git a/node_modules/expo-dev-menu/vendored/react-native-safe-area-context/src/useWindowDimensions.tsx b/node_modules/expo-dev-menu/vendored/react-native-safe-area-context/src/useWindowDimensions.tsx
+index a59aa1a..5d04d0b 100644
+--- a/node_modules/expo-dev-menu/vendored/react-native-safe-area-context/src/useWindowDimensions.tsx
++++ b/node_modules/expo-dev-menu/vendored/react-native-safe-area-context/src/useWindowDimensions.tsx
+@@ -23,13 +23,13 @@ export default function useWindowDimensions(): DisplayMetrics {
+         setDimensions(window);
+       }
+     }
+-    Dimensions.addEventListener('change', handleChange);
++    const sub = Dimensions.addEventListener('change', handleChange);
+     // We might have missed an update between calling `get` in render and
+     // `addEventListener` in this handler, so we set it here. If there was
+     // no change, React will filter out this update as a no-op.
+     handleChange({ window: Dimensions.get('window') });
+     return () => {
+-      Dimensions.removeEventListener('change', handleChange);
++     sub.remove();
+     };
+   }, [dimensions]);
+   return dimensions;
