@@ -41,6 +41,10 @@ Drag the marker around the Google map and try to find a suspicious marker. The h
 
 After you find a suspicious marker, it will take you inside Street View. Try to find the cat, and when you do, click on it to catch it!
 
+## Full playing video
+
+[CATch! - YouTube](https://youtu.be/Od5oQkS8Nv0)
+
 ## Tech Notes
 
 ### How Long It Took to Create This App
