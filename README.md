@@ -25,13 +25,19 @@ This mini-game is about catching a cat that has run away somewhere in Dublin cit
 
 **Start the Game**
 
+![c1](https://github.com/user-attachments/assets/f7e52e79-f8b3-47e1-8da1-bab6119d2307)
+
 Press the `START GAME` button. You will see a cat running away!
 
 **Find the Cat**
 
+![c2](https://github.com/user-attachments/assets/bb60a179-3b2e-4e99-9955-13fe0e4000a0)
+
 Drag the marker around the Google map and try to find a suspicious marker. The hints shown on the map will let you know if you are getting close.
 
 **Get inside Street View and CATch!**
+
+![c3](https://github.com/user-attachments/assets/9d395b19-3517-4915-b223-017313212930)
 
 After you find a suspicious marker, it will take you inside Street View. Try to find the cat, and when you do, click on it to catch it!
 
