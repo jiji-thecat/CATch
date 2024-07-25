@@ -74,6 +74,7 @@ I would like to add the following features:
 - Include other countries.
 - Refine the UI design.
 - Add more gaming features, such as more cat characters, a time limit to find the cat, releasing multiple cats at once, and more.
+- Multi platform support.
 
 ## License
 
